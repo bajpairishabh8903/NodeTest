@@ -1,0 +1,81 @@
+*{
+  padding:0;
+  border:0;
+  margin : 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html{
+  font-size: 60%;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-form{
+  width: 30%;
+  border: 1px solid rgb(206, 206, 206);
+  background-color: rgb(250, 250, 250);
+  height: 80%;
+}
+
+.form-strc{
+  width: 70%;
+}
+
+
+.form-inp{
+  border: 1px solid rgb(166, 166, 166);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.form-inp-half{
+  width: 46%;
+  border: 1px solid rgb(166, 166, 166);
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.btn{
+  padding: 1rem 1.5rem;
+  background-color: rgb(0, 89, 255);
+  color: white;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+input[name=subscribe],
+label[for=subscribe]{
+  font-size: 1.5rem;
+}
+
+label[for=subscribe]{
+  padding: 0 1rem;
+}
+
+.form-note{
+  font-size: 1.3rem;
+  padding-top: 6rem;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body class="flex-row">
+    <form action="/signup" method="post" class="main-form flex-col" style="justify-content: space-evenly;">
+        <h1>Sign up</h1>
+        <div class="flex-row form-strc" style="justify-content: space-between;">
+            <input type="text" class="form-inp-half" name="firstname" placeholder="First Name" autocomplete="off" required>
+            <input type="text" class="form-inp-half" name="lastname" placeholder="Last Name" autocomplete="off" required>
+        </div>
+        <div class="flex-row form-strc">
+            <input type="email" class="form-inp" name="email" placeholder="Email" autocomplete="off" required>
+        </div>
+        <div class="flex-col form-strc">
+            <input type="password" class="form-inp" name="password" placeholder="Password" autocomplete="off" required>
+            <span style="padding: 0.5rem;">Atleast 8 characters</span>
+        </div>
+        <div class="flex-col form-strc">
+            <input type="tel" class="form-inp" name="phone" placeholder="Phone Number" autocomplete="off">
+            <span style="padding: 0.5rem;">Optional</span>
+        </div>
+        <div class="flex-row" style="padding: 0.5rem;">
+            <input type="checkbox" name="subscribe"><label for="subscribe">Subscribe to our newsletter</label>
+        </div>
+
+        <div class="flex-row form-strc">
+            <input type="submit" class="btn" value="SIGN IN">
+        </div>
+        <div class="form-note">
+            <p>By clicking <em>Sign up</em> you agree to our <a href="#">terms and service</a></p>
+        </div>
+    </form>
+</body>
+</html>
